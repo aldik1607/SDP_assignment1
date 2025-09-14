@@ -9,10 +9,6 @@ public class Car {
         this.year = year;
     }
 
-    public String getBrand() {return brand;}
-    public String getModel() {return model;}
-    public int getYear() {return year;}
-
     @Override
     public String toString() {
         return brand + " " + model + " " + year;
